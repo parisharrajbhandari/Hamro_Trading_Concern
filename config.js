@@ -13,7 +13,7 @@ const BUSINESS_CONFIG = {
         lastName: "Rajbhandari",
         fullName: "Mr. Harikumar Rajbhandari",       // Displayed in header & vCard
         title: "Managing Director",              // Job title / designation
-        profilePhoto: "image/profilepic.jpg",  // Profile photo for card & vCard
+        profilePhoto: "image/profilepic.jpeg",  // Profile photo for card & vCard
     },
 
     // --- Company Details ---
