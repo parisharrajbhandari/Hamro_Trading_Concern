@@ -27,7 +27,7 @@ const BUSINESS_CONFIG = {
     // --- Contact Details ---
     contact: {
         phones: [
-            { number: "+056 596036", label: "Work" },
+            { number: "056 596036", label: "Work" },
             { number: "+9779855055832", label: "Work" },
             { number: "+9779869605348", label: "Work" },
             { number: "+9779855017454", label: "Work" },
