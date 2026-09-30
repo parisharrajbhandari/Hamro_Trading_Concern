@@ -67,7 +67,7 @@ const BUSINESS_CONFIG = {
 
     // --- Logo ---
     logo: {
-        src: "image/company_logo.png",
+        src: "image/company logo.png",
         alt: "HTC logo",
     },
 
