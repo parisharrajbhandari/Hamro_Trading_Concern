@@ -1,36 +1,42 @@
 // ============================================================
 // BUSINESS CARD CONFIGURATION
 // Edit the details below to update your NFC business card.
+// All changes here will automatically reflect on the page.
 // ============================================================
 
 const BUSINESS_CONFIG = {
 
     // --- Personal Details ---
     person: {
-        firstName: "Bimish",
-        middleName: "Man",
-        lastName: "Shakya",
+        firstName: "Hari",
+        middleName: "Kumar",
+        lastName: "Rajbhandari",
         fullName: "Mr. Harikumar Rajbhandari",       // Displayed in header & vCard
-        title: "Proprietor",              // Job title / designation
+        title: "Managing Director",              // Job title / designation
+        profilePhoto: "image/profilepic.jpg",  // Profile photo for card & vCard
     },
 
     // --- Company Details ---
     company: {
-        name: "Hamro Trading Concern",    // Displayed in header & page title
-        tagline: "Gold made since 1961",               // Used in the page <title>
-        aboutHeading: "New Chandraman And Sons",     // Heading for the about section
-        aboutText: `Our shop has given serive since 1961 where sell all kinds of Gold, Silver and Diamond Jewellery. We take custom orders and designs. Be confident to buy from us.`,
+        name: "Hamro Trading Concern Pvt. Ltd.",    // Displayed in header & page title
+        tagline: "Decor Your Space.",               // Used in the page <title>
+        aboutHeading: "About",     // Heading for the about section
+        aboutText: `We provide premium range of Curtains, carpets, vinyl parquets, laminate parquets, mattress, rugs etc to decorate your home and office.`,
     },
 
     // --- Contact Details ---
     contact: {
         phones: [
-            { number: "+9779841819642", label: "Work" },
+            { number: "+977056596036", label: "Work" },
+            { number: "+9779855055832", label: "Work" },
+            { number: "+9779869605348", label: "Work" },
+            { number: "+9779855017454", label: "Work" },
+
         ],
-        whatsapp: "9779841819642",            // WhatsApp number (without +)
-        email: "shakya418@hotmail.com",
-        locationUrl: "https://maps.app.goo.gl/zFihrFUhgGqEjgA88",
-        reviewUrl: "https://www.google.com/maps/place/New+Chandraman+and+sons/@27.6958468,84.4255943,17.75z/data=!4m6!3m5!1s0x3994fb9beee44863:0x80040679721f6db0!8m2!3d27.6973649!4d84.4256387!16s%2Fg%2F11zysl1gpm?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D",
+        whatsapp: "9779855017454",            // WhatsApp number (without +)
+        email: "rajbhandariparishar@gmail.com",
+        locationUrl: "https://maps.app.goo.gl/oAwfcawXmEtwf24k",
+        reviewUrl: "https://search.google.com/local/writereview?placeid=ChIJq4xhA2v7lDkRfFljCc3NWxU",
     },
 
     // --- Social Media Links ---
@@ -39,37 +45,38 @@ const BUSINESS_CONFIG = {
     socials: [
         {
             platform: "Instagram",
-            url: "https://www.instagram.com/chandramanandsons?stkn=Ynd6YndwOHJjMmZm",
+            url: "https://www.instagram.com/parishar_rajbhandari_/?hl=en",
             icon: "fab fa-instagram",
         },
         {
             platform: "TikTok",
-            url: "https://www.tiktok.com/@newchandramanandsons?_r=1&_t=ZS-99wKiXirPmP",
+            url: "https://www.tiktok.com/@hamro_trading_concern",
             icon: "fab fa-tiktok",
         },
         {
             platform: "Facebook",
-            url: "https://www.facebook.com/share/19XbVYLCjv/",
+            url: "https://www.facebook.com/parishar.rajbhandari.7",
             icon: "fab fa-facebook-f",
         },
         {
-            platform: "website",
-            url: "https://newchandramanandsons.tappoo.workers.dev/",
+            platform: "Website",
+            url: "https://hamrotradingconcern.tappoo.workers.dev/",
+            icon: "fa-solid fa-globe",
         },
     ],
 
     // --- Logo ---
     logo: {
-        src: "image/new_chandraman_logo.png",
-        alt: "New Chandraman and Sons logo",
+        src: "image/company_logo.png",
+        alt: "HTC logo",
     },
 
     // --- vCard / Address Details ---
     vcard: {
         // This note will be saved with the contact on the device.
         // Customize it to include any info you want the recipient to see.
-        contactNote: "New Chandraman and Sons - Gold, Silver & Diamond Jewellery since 1961. Contact: Bimish man Shakya (Manager)",
-        addressStreet: "New Channdraman and Sons",
+        contactNote: "We provide premium range of Curtains, carpets, vinyl parquets, laminate parquets, mattress, rugs etc to decorate your home and office.(Parda, galicha)",
+        addressStreet: "Hamro Trading Concern Pvt. Ltd.",
         addressCity: "Chitwan",
         addressState: "Bagmati",
         addressCountry: "Nepal",
